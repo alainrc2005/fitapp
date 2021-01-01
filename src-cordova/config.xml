@@ -5,7 +5,7 @@
     <author email="dev@cordova.apache.org" href="http://cordova.io">
         Apache Cordova Team
     </author>
-    <content src="index.html" />
+    <content src="http://10.104.0.152:8080" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -21,4 +21,5 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <allow-navigation href="about:*" />
+    <allow-navigation href="http://10.104.0.152:8080" />
 </widget>
