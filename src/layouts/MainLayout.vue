@@ -8,7 +8,6 @@
           round
           icon="menu"
           aria-label="Menu"
-          @click="leftDrawerOpen = !leftDrawerOpen"
         />
 
         <q-toolbar-title>
