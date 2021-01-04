@@ -893,6 +893,29 @@
     global-agent "^2.0.2"
     global-tunnel-ng "^2.7.1"
 
+"@nano-sql/adapter-sqlite-cordova@^2.1.2":
+  version "2.1.2"
+  resolved "http://localhost:8081/repository/npm-all/@nano-sql/adapter-sqlite-cordova/-/adapter-sqlite-cordova-2.1.2.tgz#86fdde217a663865a8f2d6361788df3d28be3c81"
+  integrity sha512-xuEacZbpJcsCoinZYGB0BLkbDyFR+aAHsOh2dhbC/Xr4PjFakMHVxEpFIJk5Vx9fj61wM/+X1ht5VlU8K/S9kw==
+  dependencies:
+    "@nano-sql/core" "^2.2.4"
+    cordova-plugin-device "^2.0.2"
+    cordova-sqlite-storage "^3.2.0"
+
+"@nano-sql/core@^2.2.4", "@nano-sql/core@^2.3.7":
+  version "2.3.7"
+  resolved "http://localhost:8081/repository/npm-all/@nano-sql/core/-/core-2.3.7.tgz#df4ea7916272cab7c4a4bf4294197dd64637fe59"
+  integrity sha512-B9nniPPRhPf5Hf2cyvy72SNEg4iKQEW6pig9nwrM4DJlmOMZudifOMPBoJuK6JcTaLATIOGRPkclfosNUALnLQ==
+  dependencies:
+    fast-deep-equal "^2.0.1"
+    levenshtein-edit-distance "^2.0.4"
+    really-small-events "^1.1.0"
+    snap-db "^1.1.1"
+  optionalDependencies:
+    chalk "^2.4.2"
+    chokidar "^3.0.2"
+    command-line-args "^5.1.1"
+
 "@nodelib/fs.scandir@2.1.4":
   version "2.1.4"
   resolved "http://localhost:8081/repository/npm-all/@nodelib/fs.scandir/-/fs.scandir-2.1.4.tgz#d4b3549a5db5de2683e0c1071ab4f140904bbf69"
@@ -1524,6 +1547,11 @@ alphanum-sort@^1.0.0:
   resolved "http://localhost:8081/repository/npm-all/alphanum-sort/-/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
   integrity sha1-l6ERlkmyEa0zaR2fn0hqjsn74KM=
 
+animate.css@^4.1.1:
+  version "4.1.1"
+  resolved "http://localhost:8081/repository/npm-all/animate.css/-/animate.css-4.1.1.tgz#614ec5a81131d7e4dc362a58143f7406abd68075"
+  integrity sha512-+mRmCTv6SbCmtYJCN4faJMNFVNN5EuCTTprDTAo7YzIGji2KADmakjVA3+8mVDkZ2Bf09vayB35lSQIex2+QaQ==
+
 ansi-colors@^3.0.0:
   version "3.2.4"
   resolved "http://localhost:8081/repository/npm-all/ansi-colors/-/ansi-colors-3.2.4.tgz#e3a3da4bfbae6c86a9c285625de124a234026fbf"
@@ -1651,6 +1679,11 @@ arr-union@^3.1.0:
   version "3.1.0"
   resolved "http://localhost:8081/repository/npm-all/arr-union/-/arr-union-3.1.0.tgz#e39b09aea9def866a8f206e288af63919bae39c4"
   integrity sha1-45sJrqne+Gao8gbiiK9jkZuuOcQ=
+
+array-back@^3.0.1:
+  version "3.1.0"
+  resolved "http://localhost:8081/repository/npm-all/array-back/-/array-back-3.1.0.tgz#b8859d7a508871c9a7b2cf42f99428f65e96bfb0"
+  integrity sha512-TkuxA4UCOvxuDK6NZYXCalszEzj+TLszyASooky+i742l9TqsOdYCMJJupxRic61hwquNtppB3hgcuq9SVSH1Q==
 
 array-flatten@1.1.1:
   version "1.1.1"
@@ -2298,7 +2331,7 @@ chardet@^0.7.0:
   resolved "http://localhost:8081/repository/npm-all/chardet/-/chardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
   integrity sha512-mT8iDcrh03qDGRRmoA2hmBJnxpllMR+0/0qlzjqZES6NdiWDcZkCNAk4rPFZ9Q85r27unkiNNg8ZOiwZXBHwcA==
 
-chokidar@3.4.3, "chokidar@>=2.0.0 <4.0.0", chokidar@^3.4.1:
+chokidar@3.4.3, "chokidar@>=2.0.0 <4.0.0", chokidar@^3.0.2, chokidar@^3.4.1:
   version "3.4.3"
   resolved "http://localhost:8081/repository/npm-all/chokidar/-/chokidar-3.4.3.tgz#c1df38231448e45ca4ac588e6c79573ba6a57d5b"
   integrity sha512-DtM3g7juCXQxFVSNPNByEC2+NImtBuxQQvWlHunpJIS5Ocr0lG306cC7FCi7cEA0fzmybPUIl4txBIobk1gGOQ==
@@ -2488,6 +2521,16 @@ colors@~0.6.0-1:
   resolved "http://localhost:8081/repository/npm-all/colors/-/colors-0.6.2.tgz#2423fe6678ac0c5dae8852e5d0e5be08c997abcc"
   integrity sha1-JCP+ZnisDF2uiFLl0OW+CMmXq8w=
 
+command-line-args@^5.1.1:
+  version "5.1.1"
+  resolved "http://localhost:8081/repository/npm-all/command-line-args/-/command-line-args-5.1.1.tgz#88e793e5bb3ceb30754a86863f0401ac92fd369a"
+  integrity sha512-hL/eG8lrll1Qy1ezvkant+trihbGnaKaeEjj6Scyr3DN+RC7iQ5Rz84IeLERfAWDGo0HBSNAakczwgCilDXnWg==
+  dependencies:
+    array-back "^3.0.1"
+    find-replace "^3.0.0"
+    lodash.camelcase "^4.3.0"
+    typical "^4.0.0"
+
 commander@^2.19.0, commander@^2.20.0:
   version "2.20.3"
   resolved "http://localhost:8081/repository/npm-all/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
@@ -2676,6 +2719,23 @@ copy-webpack-plugin@6.3.2:
     schema-utils "^3.0.0"
     serialize-javascript "^5.0.1"
     webpack-sources "^1.4.3"
+
+cordova-plugin-device@^2.0.2:
+  version "2.0.3"
+  resolved "http://localhost:8081/repository/npm-all/cordova-plugin-device/-/cordova-plugin-device-2.0.3.tgz#c2b41b7efd0455dd097f89356d85bfdd5dadeb0f"
+  integrity sha512-Jb3V72btxf3XHpkPQsGdyc8N6tVBYn1vsxSFj43fIz9vonJDUThYPCJJHqk6PX6N4dJw6I4FjxkpfCR4LDYMlw==
+
+cordova-sqlite-storage-dependencies@2.1.1:
+  version "2.1.1"
+  resolved "http://localhost:8081/repository/npm-all/cordova-sqlite-storage-dependencies/-/cordova-sqlite-storage-dependencies-2.1.1.tgz#3706fd035289bdaca5770599986d5b9829b4bab0"
+  integrity sha512-1lV5Pg1FttjBmGO8z4gxtuA4BbPKtgTfUEh1Vx4boa41inizyxaowRyTeaaqEhi5gmYAaX8sRTABm9U/XckRFg==
+
+cordova-sqlite-storage@^3.2.0:
+  version "3.4.1"
+  resolved "http://localhost:8081/repository/npm-all/cordova-sqlite-storage/-/cordova-sqlite-storage-3.4.1.tgz#13921b1e49842b7164eed3788645ca66c975cd9f"
+  integrity sha512-fbpd22CJ27jVuoUWFWdDDrSWBZQ56MbsxmFYPnerlZfE4p4Kv2UXlTQJjnKJC7HZuiU+2zs01F9w5UJmRxvwAw==
+  dependencies:
+    cordova-sqlite-storage-dependencies "2.1.1"
 
 core-js-compat@^3.6.5, core-js-compat@^3.8.0:
   version "3.8.1"
@@ -3812,6 +3872,16 @@ extglob@^2.0.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
+faker@^5.1.0:
+  version "5.1.0"
+  resolved "http://localhost:8081/repository/npm-all/faker/-/faker-5.1.0.tgz#e10fa1dec4502551aee0eb771617a7e7b94692e8"
+  integrity sha512-RrWKFSSA/aNLP0g3o2WW1Zez7/MnMr7xkiZmoCfAGZmdkDQZ6l2KtuXHN5XjdvpRjDl8+3vf+Rrtl06Z352+Mw==
+
+fast-deep-equal@^2.0.1:
+  version "2.0.1"
+  resolved "http://localhost:8081/repository/npm-all/fast-deep-equal/-/fast-deep-equal-2.0.1.tgz#7b05218ddf9667bf7f370bf7fdb2cb15fdd0aa49"
+  integrity sha1-ewUhjd+WZ79/Nwv3/bLLFf3Qqkk=
+
 fast-deep-equal@^3.1.1:
   version "3.1.3"
   resolved "http://localhost:8081/repository/npm-all/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz#3a7d56b559d6cbc3eb512325244e619a65c6c525"
@@ -3973,6 +4043,13 @@ find-cache-dir@^3.3.1:
     commondir "^1.0.1"
     make-dir "^3.0.2"
     pkg-dir "^4.1.0"
+
+find-replace@^3.0.0:
+  version "3.0.0"
+  resolved "http://localhost:8081/repository/npm-all/find-replace/-/find-replace-3.0.0.tgz#3e7e23d3b05167a76f770c9fbd5258b0def68c38"
+  integrity sha512-6Tb2myMioCAgv5kfvP5/PkZZ/ntTpVK39fHY7WkWBgvbeE+VHd/tZuZ4mrC+bxh4cfOZeYKVPaJIZtZXV7GNCQ==
+  dependencies:
+    array-back "^3.0.1"
 
 find-up@^1.0.0:
   version "1.1.2"
@@ -5254,6 +5331,11 @@ lazystream@^1.0.0:
   dependencies:
     readable-stream "^2.0.5"
 
+levenshtein-edit-distance@^2.0.4:
+  version "2.0.5"
+  resolved "http://localhost:8081/repository/npm-all/levenshtein-edit-distance/-/levenshtein-edit-distance-2.0.5.tgz#a066eca8afb350e4d9054aed9ffeef66e78ffc83"
+  integrity sha512-Yuraz7QnMX/JENJU1HA6UtdsbhRzoSFnGpVGVryjQgHtl2s/YmVgmNYkVs5yzVZ9aAvQR9wPBUH3lG755ylxGA==
+
 levn@^0.3.0, levn@~0.3.0:
   version "0.3.0"
   resolved "http://localhost:8081/repository/npm-all/levn/-/levn-0.3.0.tgz#3b09924edf9f083c0490fdd4c0bc4421e04764ee"
@@ -5330,6 +5412,11 @@ lodash._reinterpolate@^3.0.0:
   version "3.0.0"
   resolved "http://localhost:8081/repository/npm-all/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
   integrity sha1-DM8tiRZq8Ds2Y8eWU4t1rG4RTZ0=
+
+lodash.camelcase@^4.3.0:
+  version "4.3.0"
+  resolved "http://localhost:8081/repository/npm-all/lodash.camelcase/-/lodash.camelcase-4.3.0.tgz#b28aa6288a2b9fc651035c7711f65ab6190331a6"
+  integrity sha1-soqmKIorn8ZRA1x3EfZathkDMaY=
 
 lodash.clonedeep@^4.5.0:
   version "4.5.0"
@@ -5742,7 +5829,7 @@ mkdirp@^1.0.3, mkdirp@^1.0.4, mkdirp@~1.0.4:
   resolved "http://localhost:8081/repository/npm-all/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
   integrity sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
 
-moment@^2.22.1:
+moment@^2.22.1, moment@^2.29.1:
   version "2.29.1"
   resolved "http://localhost:8081/repository/npm-all/moment/-/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
   integrity sha512-kHmoybcPV8Sqy59DwNDY3Jefr64lK/by/da0ViFcuA4DH0vQg5Q6Ze5VimxkfQNSC+Mls/Kx53s7TjP1RhFEDQ==
@@ -7101,6 +7188,11 @@ readdirp@~3.5.0:
   dependencies:
     picomatch "^2.2.1"
 
+really-small-events@^1.1.0:
+  version "1.1.0"
+  resolved "http://localhost:8081/repository/npm-all/really-small-events/-/really-small-events-1.1.0.tgz#ad35eb0afa956c76838c926c8f6734db8524e946"
+  integrity sha512-iyh4pULyDYBMecekEYcP3ToJD3ZUdIPfZV9nx1C1lJfMguElkDAZvEMJegy8uE7eIROCuLsqh5r44fVro9nKFg==
+
 regenerate-unicode-properties@^8.2.0:
   version "8.2.0"
   resolved "http://localhost:8081/repository/npm-all/regenerate-unicode-properties/-/regenerate-unicode-properties-8.2.0.tgz#e5de7111d655e7ba60c057dbe9ff37c87e65cdec"
@@ -7676,6 +7768,11 @@ slice-ansi@^4.0.0:
     ansi-styles "^4.0.0"
     astral-regex "^2.0.0"
     is-fullwidth-code-point "^3.0.0"
+
+snap-db@^1.1.1:
+  version "1.1.6"
+  resolved "http://localhost:8081/repository/npm-all/snap-db/-/snap-db-1.1.6.tgz#ee223c79dcfb4945af29b6ae32c9562988623d5d"
+  integrity sha512-KxsO5RnY70J48f6poy0qVm2WS8ZbqG0PUVP2fjd7dvlaCMZ/DxtDv5fhhIVwkP2lOmNQ9QsTFfDuCA7N+TF3qg==
 
 snapdragon-node@^2.0.1:
   version "2.1.1"
@@ -8390,6 +8487,11 @@ typescript@3.9.5:
   resolved "http://localhost:8081/repository/npm-all/typescript/-/typescript-3.9.5.tgz#586f0dba300cde8be52dd1ac4f7e1009c1b13f36"
   integrity sha512-hSAifV3k+i6lEoCJ2k6R2Z/rp/H3+8sdmcn5NrS3/3kE7+RyZXm9aqvxWqjEXHAd8b0pShatpcdMTvEdvAJltQ==
 
+typical@^4.0.0:
+  version "4.0.0"
+  resolved "http://localhost:8081/repository/npm-all/typical/-/typical-4.0.0.tgz#cbeaff3b9d7ae1e2bbfaf5a4e6f11eccfde94fc4"
+  integrity sha512-VAH4IvQ7BDFYglMd7BPRDfLgxZZX4O4TFcRDA6EN5X7erNJJq+McIEp8np9aVtxrCJ6qx4GTYVfOWNjcqwZgRw==
+
 uglify-js@^3.5.1:
   version "3.12.4"
   resolved "http://localhost:8081/repository/npm-all/uglify-js/-/uglify-js-3.12.4.tgz#93de48bb76bb3ec0fc36563f871ba46e2ee5c7ee"
@@ -8702,7 +8804,12 @@ vue@2.6.12:
   resolved "http://localhost:8081/repository/npm-all/vue/-/vue-2.6.12.tgz#f5ebd4fa6bd2869403e29a896aed4904456c9123"
   integrity sha512-uhmLFETqPPNyuLLbsKz6ioJ4q7AZHzD8ZVFNATNyICSZouqP2Sz0rotWQC8UNBF6VGSCs5abnKJoStA6JbCbfg==
 
-vuex@3.6.0:
+vuelidate@^0.7.6:
+  version "0.7.6"
+  resolved "http://localhost:8081/repository/npm-all/vuelidate/-/vuelidate-0.7.6.tgz#84100c13b943470660d0416642845cd2a1edf4b2"
+  integrity sha512-suzIuet1jGcyZ4oUSW8J27R2tNrJ9cIfklAh63EbAkFjE380iv97BAiIeolRYoB9bF9usBXCu4BxftWN1Dkn3g==
+
+vuex@3.6.0, vuex@^3.6.0:
   version "3.6.0"
   resolved "http://localhost:8081/repository/npm-all/vuex/-/vuex-3.6.0.tgz#95efa56a58f7607c135b053350833a09e01aa813"
   integrity sha512-W74OO2vCJPs9/YjNjW8lLbj+jzT24waTo2KShI8jLvJW8OaIkgb3wuAMA7D+ZiUxDOx3ubwSZTaJBip9G8a3aQ==

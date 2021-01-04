@@ -21,3 +21,5 @@ yarn run lint
 ```bash
 quasar build
 ```
+### Certificado
+keytool -genkey -v -keystore fitcuba.ks -alias fitcuba -keyalg RSA -keysize 2048 -validity 20000

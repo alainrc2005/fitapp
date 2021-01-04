@@ -1,19 +1,21 @@
+import MainLayout from 'layouts/MainLayout'
+import Index from 'pages/Index'
+import Error404 from 'pages/Error404'
+import Config from 'pages/Config'
+import Sync from 'pages/Sync'
 
 const routes = [
   {
     path: '/',
-    component: () => import('layouts/MainLayout.vue'),
+    component: MainLayout,
     children: [
-      { path: '', component: () => import('pages/Index.vue') }
+      { path: '', component: Index },
+      { path: 'config', component: Config },
+      { path: 'sync', component: Sync }
     ]
   },
 
-  // Always leave this as last one,
-  // but you can also remove it
-  {
-    path: '*',
-    component: () => import('pages/Error404.vue')
-  }
+  { path: '*', component: Error404 }
 ]
 
 export default routes
